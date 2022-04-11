@@ -1,0 +1,33 @@
+{
+  "name": "moroccofooddelivery-__app",
+  "version": "1.0.0",
+  "description": "application delivery food",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elhilali-hA/MoroccofoodDelivery-__app.git"
+  },
+  "author": "elhilali-ha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Elhilali-hA/MoroccofoodDelivery-__app/issues"
+  },
+  "homepage": "https://github.com/Elhilali-hA/MoroccofoodDelivery-__app#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.10",
+    "mongoose-array-validator": "^1.0.3",
+    "multer": "^1.4.4",
+    "nodemon": "^2.0.15"
+  }
+}
